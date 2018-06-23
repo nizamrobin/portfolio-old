@@ -1,0 +1,44 @@
+.showcase-card {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  box-shadow: var(--shadow-light); }
+  .showcase-card__img-wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .showcase-card__img {
+    width: 100%; }
+  .showcase-card__body {
+    padding: 1rem;
+    display: flex;
+    align-items: center; }
+  .showcase-card__info {
+    width: 70%;
+    flex: 1 1 auto; }
+    .showcase-card__info-title {
+      font-family: var(--font-secondary);
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+      font-weight: 400; }
+    .showcase-card__info-text {
+      color: var(--color-text-secondary);
+      font-size: 0.9em;
+      margin-right: 2.5rem;
+      line-height: 1.5; }
+  .showcase-card__link {
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 0.7rem 1rem;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--font-secondary);
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .showcase-card__link:hover {
+      background-color: var(--color-primary);
+      color: #fff; }

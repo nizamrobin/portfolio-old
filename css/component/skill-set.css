@@ -1,0 +1,36 @@
+.skill-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (max-width: 550px) {
+    .skill-set {
+      background-color: var(--color-maroon); } }
+  .skill-set__header {
+    background-color: var(--color-maroon);
+    width: 100%;
+    padding: 5rem 0;
+    padding-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .skill-set__title {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: capitalize;
+    font-family: var(--font-secondary);
+    letter-spacing: 2px;
+    font-size: 2.4em; }
+    .skill-set__title-separator {
+      display: block; }
+  .skill-set__body {
+    transform: translateY(-12rem);
+    margin-bottom: -10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .skill-set__body > .skill {
+      margin: 1rem; }
+      @media screen and (max-width: 550px) {
+        .skill-set__body > .skill {
+          width: 70%; } }

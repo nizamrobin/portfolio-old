@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  opacity: 0.1; }
+  .navbar__list {
+    height: inherit;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto; }
+  .navbar__item {
+    margin: 0 5px; }
+  .navbar__link {
+    padding: 5px;
+    display: inline-flex; }
+    .navbar__link__icon {
+      width: 2rem;
+      height: 2rem;
+      fill: var(--color-primary); }

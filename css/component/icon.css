@@ -1,0 +1,32 @@
+.icon {
+  transition: all 0.3s ease-in-out;
+  /* Icon Colors */
+  /* Icon Sizes */
+  --icon-mini: 0.8rem;
+  --icon-small: 1rem;
+  --icon-medium: 1.5rem;
+  --icon-big: 2rem;
+  --icon-large: 5rem;
+  --icon-massive: 15rem; }
+  .icon--primary {
+    fill: var(--color-primary); }
+  .icon--secondary {
+    fill: var(--color-secondary); }
+  .icon--mini {
+    width: var(--icon-mini);
+    height: var(--icon-mini); }
+  .icon--small {
+    width: var(--icon-small);
+    height: var(--icon-small); }
+  .icon--medium {
+    width: var(--icon-medium);
+    height: var(--icon-medium); }
+  .icon--big {
+    width: var(--icon-big);
+    height: var(--icon-big); }
+  .icon--large {
+    width: var(--icon-large);
+    height: var(--icon-large); }
+  .icon--massive {
+    width: var(--icon-massive);
+    height: var(--icon-massive); }
